@@ -1,2 +1,3 @@
-bidproc:
-  name: 'Hello World'
+date_EndTimeZone: Asia/Muscat
+date_StartTimeZone: +04:00
+sql_dateformate: yyyy-MM-dd HH:mm:ss
