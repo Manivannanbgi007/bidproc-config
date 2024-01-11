@@ -1,6 +1,8 @@
+sql_dateformate: yyyy-MM-dd HH:mm:ss
+view_dateformate: dd-MMM-yyyy
 date_EndTimeZone: Asia/Muscat
 date_StartTimeZone: +04:00
-sql_dateformate: yyyy-MM-dd HH:mm:ss
+client_dateformate: dd/MM/yyyy
 
 logging:
   file:
