@@ -6,7 +6,7 @@ client_dateformate: dd/MM/yyyy
 
 logging:
   file:
-    name: E:/MicroService Log/Bidproc-des/div/common-log.log
+    name: E:/MicroService Log/Bidproc-des/dev/common-log.log
 
 eureka:
   instance:
