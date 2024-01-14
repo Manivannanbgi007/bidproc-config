@@ -7,6 +7,10 @@ client_dateformate: dd/MM/yyyy
 logging:
   file:
     name: E:/MicroService Log/Bidproc-des/dev/common-log.log
+  level:
+    org:
+      springframework:
+        web: DEBUG
   pattern:
     level: '%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]'
 
