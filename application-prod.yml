@@ -6,7 +6,9 @@ client_dateformate: dd/MM/yyyy
 
 logging:
   file:
-    name: E:/MicroService Log/Bidproc-des/prod/common-log.log
+    name: E:/MicroService Log/Bidproc-des/dev/common-log.log
+  pattern:
+    level: '%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]'
 
 eureka:
   instance:
